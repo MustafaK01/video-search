@@ -7,6 +7,8 @@ use `python3 videoSearch.py` command for starting the project
 
 ---
 
-x = Searched Video
-y = How many data you want for one page (default : 5)
-**http://localhost:7501/x/y**
+`x = Searched Video`
+
+`y = How many data you want for one page (default : 5)`
+
+`http://localhost:7501/x/y`
