@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    }
+  .center-div {
+    display: block;
+    margin-right: 500px;
+    margin-left: 500px;
+    border: 1px solid black;
+    padding: 15px 15px 15px 15px;
+    }
+</style>
+<body>
+    <div class="center-div">
+        <label for="">If you want links, thumbnails and some other info of the video you are looking for</label>
+        <label for="">enter the name of the video you are looking for : </label>
+        <hr>
+        <label for="">Aradığınız videonun linklerini, küçük resimlerini ve diğer bazı bilgilerini istiyorsanız</label>
+       
+        <br>
+        <br>
+        <br>
+        <label for="">How Many Video Data İn One Page | Bir Sayfada Kaç tane video bilgisi görünsün</label>
+        
+        <br><input type="number" id="howManyPerPage" />
+        
+        <br>
+        <label for="">enter the name of the video you are looking for : </label>
+        <br>
+        <label for="">| aradığınız videonun adını girin : </label>
+        <input type="text" id="id" />
+        <button><a style="text-decoration: none; color: black;" href="http://localhost:7501/" onclick="this.href+=document.getElementById('id').value+'/'+document.getElementById('howManyPerPage').value">Search</a></button>
+    </div>
+    
+    
+</body>
+</html>
+
+
