@@ -15,4 +15,3 @@ use `python3 videoSearch.py` command for starting the project
 
 ---
 
-![videoSearch](https://user-images.githubusercontent.com/62333156/173215657-4b4fa26e-aa54-4edd-83d1-1fe0cc37b9b4.jpg)
